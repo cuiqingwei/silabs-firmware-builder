@@ -1,0 +1,1049 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<iarProjectConnection name="Simplicity Configurator" version="1.8">
+  <files>
+    <group name="config">
+      <path>config\sl_memory_config.h</path>
+      <path>config\SEGGER_RTT_Conf.h</path>
+      <path>config\nvm3_default_config.h</path>
+      <path>config\psa_crypto_config.h</path>
+      <path>config\sl_zigbee_security_link_keys_config.h</path>
+      <path>config\sl_zigbee_binding_table_config.h</path>
+      <path>config\sl_legacy_hal_wdog_config.h</path>
+      <path>config\sl_hfxo_manager_config.h</path>
+      <path>config\sl_debug_swo_config.h</path>
+      <path>config\sl_zigbee_light_link_config.h</path>
+      <path>config\sl_zigbee_pro_stack_config.h</path>
+      <path>config\sl_token_manager_config.h</path>
+      <path>config\sl_custom_token_header.h</path>
+      <path>config\sl_custom_manufacturing_token_header.h</path>
+      <path>config\sl_zigbee_debug_print_config.h</path>
+      <path>config\sl_sleeptimer_config.h</path>
+      <path>config\sl_power_manager_config.h</path>
+      <path>config\sl_zigbee_green_power_config.h</path>
+      <path>config\dmadrv_config.h</path>
+      <path>config\sl_rail_util_pti_config.h</path>
+      <path>config\zigbee_sleep_config.h</path>
+      <path>config\app_properties_config.h</path>
+      <path>config\sl_iostream_usart_vcom_config.h</path>
+      <path>config\sl_device_init_emu_config.h</path>
+      <path>config\sl_zigbee_source_route_config.h</path>
+      <path>config\legacy_hal_config.h</path>
+      <path>config\sl_device_init_hfxo_config.h</path>
+      <path>config\sl_rail_util_pa_config.h</path>
+      <path>config\sl_rail_util_rf_path_config.h</path>
+      <path>config\sl_device_init_hfrco_config.h</path>
+      <path>config\btl_interface_cfg.h</path>
+      <path>config\btl_interface_cfg_s2c1.h</path>
+      <path>config\emlib_core_debug_config.h</path>
+      <path>config\sl_mbedtls_config.h</path>
+      <path>config\sl_iostream_vuart_config.h</path>
+      <path>config\legacy_common_ash_config.h</path>
+    </group>
+    <group name="autogen">
+      <path>autogen\sl_application_type.h</path>
+      <path>autogen\RTE_Components.h</path>
+      <path>autogen\sl_component_catalog.h</path>
+      <path>autogen\sl_device_init_clocks.c</path>
+      <path>autogen\sl_event_handler.h</path>
+      <path>autogen\sl_event_handler.c</path>
+      <path>autogen\sl_iostream_handles.h</path>
+      <path>autogen\sl_iostream_handles.c</path>
+      <path>autogen\sl_iostream_init_instances.h</path>
+      <path>autogen\sl_iostream_init_usart_instances.c</path>
+      <path>autogen\sl_iostream_init_usart_instances.h</path>
+      <path>autogen\sl_legacy_bootloader_device_info.h</path>
+      <path>autogen\mbedtls_config_autogen.h</path>
+      <path>autogen\sl_mbedtls_config_transform_autogen.h</path>
+      <path>autogen\sl_power_manager_handler.c</path>
+      <path>autogen\psa_crypto_config_autogen.h</path>
+      <path>autogen\sl_rail_util_ieee802154_phy_select.c</path>
+      <path>autogen\sl_rail_util_ieee802154_stack_event.c</path>
+      <path>autogen\linkerfile_base.icf</path>
+      <path>autogen\zigbee_stack_callback_dispatcher.h</path>
+      <path>autogen\zigbee_stack_callback_dispatcher.c</path>
+      <path>autogen\zigbee_common_callback_dispatcher.h</path>
+      <path>autogen\zigbee_common_callback_dispatcher.c</path>
+      <path>autogen\zigbee_ncp_callback_dispatcher.h</path>
+      <path>autogen\zigbee_ncp_callback_dispatcher.c</path>
+      <path>autogen\zigbee_af_token_headers.h</path>
+      <path>autogen\.crc_config.crc</path>
+    </group>
+    <group name="gecko_sdk_4.2.3">
+      <group name="platform">
+        <group name="Device">
+          <group name="SiliconLabs">
+            <group name="EFR32MG21">
+              <group name="Source">
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Source\system_efr32mg21.c</path>
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Source\startup_efr32mg21.c</path>
+              </group>
+              <group name="Include">
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Include\efr32mg21a020f512im32.h</path>
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Include\efr32mg21_acmp.h</path>
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Include\efr32mg21_aes.h</path>
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Include\efr32mg21_bufc.h</path>
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Include\efr32mg21_buram.h</path>
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Include\efr32mg21_burtc.h</path>
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Include\efr32mg21_cmu.h</path>
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Include\efr32mg21_devinfo.h</path>
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Include\efr32mg21_dma_descriptor.h</path>
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Include\efr32mg21_dpll.h</path>
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Include\efr32mg21_emu.h</path>
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Include\efr32mg21_fsrco.h</path>
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Include\efr32mg21_gpcrc.h</path>
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Include\efr32mg21_gpio.h</path>
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Include\efr32mg21_gpio_port.h</path>
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Include\efr32mg21_hfrco.h</path>
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Include\efr32mg21_hfxo.h</path>
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Include\efr32mg21_i2c.h</path>
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Include\efr32mg21_iadc.h</path>
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Include\efr32mg21_icache.h</path>
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Include\efr32mg21_ldma.h</path>
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Include\efr32mg21_ldmaxbar.h</path>
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Include\efr32mg21_ldmaxbar_defines.h</path>
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Include\efr32mg21_letimer.h</path>
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Include\efr32mg21_lfrco.h</path>
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Include\efr32mg21_lfxo.h</path>
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Include\efr32mg21_lvgd.h</path>
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Include\efr32mg21_msc.h</path>
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Include\efr32mg21_prs.h</path>
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Include\efr32mg21_prs_signals.h</path>
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Include\efr32mg21_rtcc.h</path>
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Include\efr32mg21_semailbox.h</path>
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Include\efr32mg21_smu.h</path>
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Include\efr32mg21_syscfg.h</path>
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Include\efr32mg21_timer.h</path>
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Include\efr32mg21_ulfrco.h</path>
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Include\efr32mg21_usart.h</path>
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Include\efr32mg21_wdog.h</path>
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Include\em_device.h</path>
+                <path>..\..\gecko_sdk\platform\Device\SiliconLabs\EFR32MG21\Include\system_efr32mg21.h</path>
+              </group>
+            </group>
+          </group>
+        </group>
+        <group name="common">
+          <group name="inc">
+            <path>..\..\gecko_sdk\platform\common\inc\sl_atomic.h</path>
+            <path>..\..\gecko_sdk\platform\common\inc\sl_endianness.h</path>
+            <path>..\..\gecko_sdk\platform\common\inc\sl_enum.h</path>
+            <path>..\..\gecko_sdk\platform\common\inc\sl_assert.h</path>
+            <path>..\..\gecko_sdk\platform\common\inc\sl_common.h</path>
+            <path>..\..\gecko_sdk\platform\common\inc\sl_string.h</path>
+            <path>..\..\gecko_sdk\platform\common\inc\sl_slist.h</path>
+            <path>..\..\gecko_sdk\platform\common\inc\sl_status.h</path>
+          </group>
+          <group name="src">
+            <path>..\..\gecko_sdk\platform\common\src\sl_assert.c</path>
+            <path>..\..\gecko_sdk\platform\common\src\sl_string.c</path>
+            <path>..\..\gecko_sdk\platform\common\src\sl_slist.c</path>
+          </group>
+          <group name="toolchain">
+            <group name="src">
+              <path>..\..\gecko_sdk\platform\common\toolchain\src\sl_memory.c</path>
+            </group>
+            <group name="inc">
+              <path>..\..\gecko_sdk\platform\common\toolchain\inc\sl_memory_region.h</path>
+              <path>..\..\gecko_sdk\platform\common\toolchain\inc\sl_memory.h</path>
+            </group>
+          </group>
+        </group>
+        <group name="bootloader">
+          <group name="app_properties">
+            <path>..\..\gecko_sdk\platform\bootloader\app_properties\app_properties.c</path>
+          </group>
+          <group name="api">
+            <path>..\..\gecko_sdk\platform\bootloader\api\btl_interface.c</path>
+            <path>..\..\gecko_sdk\platform\bootloader\api\btl_interface_storage.c</path>
+            <path>..\..\gecko_sdk\platform\bootloader\api\application_properties.h</path>
+            <path>..\..\gecko_sdk\platform\bootloader\api\btl_errorcode.h</path>
+            <path>..\..\gecko_sdk\platform\bootloader\api\btl_interface.h</path>
+            <path>..\..\gecko_sdk\platform\bootloader\api\btl_interface_parser.h</path>
+            <path>..\..\gecko_sdk\platform\bootloader\api\btl_interface_storage.h</path>
+            <path>..\..\gecko_sdk\platform\bootloader\api\btl_reset_info.h</path>
+          </group>
+        </group>
+        <group name="CMSIS">
+          <group name="Core">
+            <group name="Include">
+              <path>..\..\gecko_sdk\platform\CMSIS\Core\Include\cmsis_compiler.h</path>
+              <path>..\..\gecko_sdk\platform\CMSIS\Core\Include\cmsis_version.h</path>
+              <path>..\..\gecko_sdk\platform\CMSIS\Core\Include\tz_context.h</path>
+              <path>..\..\gecko_sdk\platform\CMSIS\Core\Include\cmsis_iccarm.h</path>
+              <path>..\..\gecko_sdk\platform\CMSIS\Core\Include\core_cm33.h</path>
+              <path>..\..\gecko_sdk\platform\CMSIS\Core\Include\mpu_armv8.h</path>
+            </group>
+          </group>
+        </group>
+        <group name="driver">
+          <group name="debug">
+            <group name="src">
+              <path>..\..\gecko_sdk\platform\driver\debug\src\sl_debug_swo.c</path>
+            </group>
+            <group name="inc">
+              <path>..\..\gecko_sdk\platform\driver\debug\inc\sl_debug_swo.h</path>
+            </group>
+          </group>
+        </group>
+        <group name="service">
+          <group name="device_init">
+            <group name="inc">
+              <path>..\..\gecko_sdk\platform\service\device_init\inc\sl_device_init_clocks.h</path>
+              <path>..\..\gecko_sdk\platform\service\device_init\inc\sl_device_init_emu.h</path>
+              <path>..\..\gecko_sdk\platform\service\device_init\inc\sl_device_init_hfrco.h</path>
+              <path>..\..\gecko_sdk\platform\service\device_init\inc\sl_device_init_hfxo.h</path>
+              <path>..\..\gecko_sdk\platform\service\device_init\inc\sl_device_init_nvic.h</path>
+            </group>
+            <group name="src">
+              <path>..\..\gecko_sdk\platform\service\device_init\src\sl_device_init_emu_s2.c</path>
+              <path>..\..\gecko_sdk\platform\service\device_init\src\sl_device_init_hfrco.c</path>
+              <path>..\..\gecko_sdk\platform\service\device_init\src\sl_device_init_hfxo_s2.c</path>
+              <path>..\..\gecko_sdk\platform\service\device_init\src\sl_device_init_nvic.c</path>
+            </group>
+          </group>
+          <group name="hfxo_manager">
+            <group name="src">
+              <path>..\..\gecko_sdk\platform\service\hfxo_manager\src\sl_hfxo_manager.c</path>
+              <path>..\..\gecko_sdk\platform\service\hfxo_manager\src\sl_hfxo_manager_hal_s2.c</path>
+              <path>..\..\gecko_sdk\platform\service\hfxo_manager\src\sli_hfxo_manager_internal.h</path>
+            </group>
+            <group name="inc">
+              <path>..\..\gecko_sdk\platform\service\hfxo_manager\inc\sl_hfxo_manager.h</path>
+              <path>..\..\gecko_sdk\platform\service\hfxo_manager\inc\sli_hfxo_manager.h</path>
+            </group>
+          </group>
+          <group name="iostream">
+            <group name="src">
+              <path>..\..\gecko_sdk\platform\service\iostream\src\sl_iostream.c</path>
+              <path>..\..\gecko_sdk\platform\service\iostream\src\sl_iostream_debug.c</path>
+              <path>..\..\gecko_sdk\platform\service\iostream\src\sl_iostream_swo_itm_8.c</path>
+              <path>..\..\gecko_sdk\platform\service\iostream\src\sl_iostream_uart.c</path>
+              <path>..\..\gecko_sdk\platform\service\iostream\src\sl_iostream_usart.c</path>
+              <path>..\..\gecko_sdk\platform\service\iostream\src\sl_iostream_vuart.c</path>
+            </group>
+            <group name="inc">
+              <path>..\..\gecko_sdk\platform\service\iostream\inc\sl_iostream.h</path>
+              <path>..\..\gecko_sdk\platform\service\iostream\inc\sl_iostream_debug.h</path>
+              <path>..\..\gecko_sdk\platform\service\iostream\inc\sli_iostream_swo_itm_8.h</path>
+              <path>..\..\gecko_sdk\platform\service\iostream\inc\sl_iostream_swo_itm_8.h</path>
+              <path>..\..\gecko_sdk\platform\service\iostream\inc\sl_iostream_uart.h</path>
+              <path>..\..\gecko_sdk\platform\service\iostream\inc\sli_iostream_uart.h</path>
+              <path>..\..\gecko_sdk\platform\service\iostream\inc\sl_iostream_usart.h</path>
+              <path>..\..\gecko_sdk\platform\service\iostream\inc\sl_iostream_vuart.h</path>
+              <path>..\..\gecko_sdk\platform\service\iostream\inc\sl_iostream_swo.h</path>
+            </group>
+          </group>
+          <group name="legacy_hal">
+            <group name="src">
+              <path>..\..\gecko_sdk\platform\service\legacy_hal\src\bootloader-interface.c</path>
+              <path>..\..\gecko_sdk\platform\service\legacy_hal\src\bootloader-interface-app.c</path>
+              <path>..\..\gecko_sdk\platform\service\legacy_hal\src\bootloader-interface-standalone.c</path>
+              <path>..\..\gecko_sdk\platform\service\legacy_hal\src\bootloader-common.c</path>
+              <path>..\..\gecko_sdk\platform\service\legacy_hal\src\crc.c</path>
+              <path>..\..\gecko_sdk\platform\service\legacy_hal\src\base-replacement.c</path>
+              <path>..\..\gecko_sdk\platform\service\legacy_hal\src\diagnostic.c</path>
+              <path>..\..\gecko_sdk\platform\service\legacy_hal\src\ember-phy.c</path>
+              <path>..\..\gecko_sdk\platform\service\legacy_hal\src\faults.s</path>
+              <path>..\..\gecko_sdk\platform\service\legacy_hal\src\random.c</path>
+              <path>..\..\gecko_sdk\platform\service\legacy_hal\src\token_legacy.c</path>
+            </group>
+            <group name="inc">
+              <group name="serial">
+                <path>..\..\gecko_sdk\platform\service\legacy_hal\inc\serial\serial.h</path>
+              </group>
+              <group name="cortexm3">
+                <path>..\..\gecko_sdk\platform\service\legacy_hal\inc\cortexm3\diagnostic.h</path>
+              </group>
+              <group name="hal">
+                <path>..\..\gecko_sdk\platform\service\legacy_hal\inc\hal\hal.h</path>
+              </group>
+              <path>..\..\gecko_sdk\platform\service\legacy_hal\inc\bootloader-interface.h</path>
+              <path>..\..\gecko_sdk\platform\service\legacy_hal\inc\bootloader-interface-app.h</path>
+              <path>..\..\gecko_sdk\platform\service\legacy_hal\inc\bootloader-interface-standalone.h</path>
+              <path>..\..\gecko_sdk\platform\service\legacy_hal\inc\bootloader-common.h</path>
+              <path>..\..\gecko_sdk\platform\service\legacy_hal\inc\bootloader-eeprom.h</path>
+              <path>..\..\gecko_sdk\platform\service\legacy_hal\inc\asm.h</path>
+              <path>..\..\gecko_sdk\platform\service\legacy_hal\inc\button.h</path>
+              <path>..\..\gecko_sdk\platform\service\legacy_hal\inc\crc.h</path>
+              <path>..\..\gecko_sdk\platform\service\legacy_hal\inc\efm32_micro.h</path>
+              <path>..\..\gecko_sdk\platform\service\legacy_hal\inc\em2xx-reset-defs.h</path>
+              <path>..\..\gecko_sdk\platform\service\legacy_hal\inc\emlib_config.h</path>
+              <path>..\..\gecko_sdk\platform\service\legacy_hal\inc\hal.h</path>
+              <path>..\..\gecko_sdk\platform\service\legacy_hal\inc\interrupts-efm32.h</path>
+              <path>..\..\gecko_sdk\platform\service\legacy_hal\inc\led.h</path>
+              <path>..\..\gecko_sdk\platform\service\legacy_hal\inc\micro-common.h</path>
+              <path>..\..\gecko_sdk\platform\service\legacy_hal\inc\micro-types.h</path>
+              <path>..\..\gecko_sdk\platform\service\legacy_hal\inc\micro.h</path>
+              <path>..\..\gecko_sdk\platform\service\legacy_hal\inc\platform-header.h</path>
+              <path>..\..\gecko_sdk\platform\service\legacy_hal\inc\random.h</path>
+              <path>..\..\gecko_sdk\platform\service\legacy_hal\inc\reset-def.h</path>
+              <path>..\..\gecko_sdk\platform\service\legacy_hal\inc\serial.h</path>
+              <path>..\..\gecko_sdk\platform\service\legacy_hal\inc\token-manufacturing-series-1.h</path>
+              <path>..\..\gecko_sdk\platform\service\legacy_hal\inc\token-manufacturing-series-2.h</path>
+              <path>..\..\gecko_sdk\platform\service\legacy_hal\inc\token-manufacturing.h</path>
+              <path>..\..\gecko_sdk\platform\service\legacy_hal\inc\sl_legacy_hal_integration_hooks.h</path>
+            </group>
+          </group>
+          <group name="legacy_common_ash">
+            <group name="src">
+              <path>..\..\gecko_sdk\platform\service\legacy_common_ash\src\ash-common.c</path>
+            </group>
+            <group name="inc">
+              <path>..\..\gecko_sdk\platform\service\legacy_common_ash\inc\ash-common.h</path>
+              <path>..\..\gecko_sdk\platform\service\legacy_common_ash\inc\ash-protocol.h</path>
+            </group>
+          </group>
+          <group name="legacy_hal_wdog">
+            <group name="src">
+              <path>..\..\gecko_sdk\platform\service\legacy_hal_wdog\src\sl_legacy_hal_wdog.c</path>
+            </group>
+            <group name="inc">
+              <path>..\..\gecko_sdk\platform\service\legacy_hal_wdog\inc\sl_legacy_hal_wdog.h</path>
+            </group>
+          </group>
+          <group name="legacy_ncp_ash">
+            <group name="src">
+              <path>..\..\gecko_sdk\platform\service\legacy_ncp_ash\src\ash-ncp.c</path>
+            </group>
+            <group name="inc">
+              <path>..\..\gecko_sdk\platform\service\legacy_ncp_ash\inc\ash-ncp.h</path>
+            </group>
+          </group>
+          <group name="legacy_printf">
+            <group name="src">
+              <path>..\..\gecko_sdk\platform\service\legacy_printf\src\sl_legacy_printf.c</path>
+            </group>
+            <group name="inc">
+              <path>..\..\gecko_sdk\platform\service\legacy_printf\inc\sl_legacy_printf.h</path>
+            </group>
+          </group>
+          <group name="power_manager">
+            <group name="src">
+              <path>..\..\gecko_sdk\platform\service\power_manager\src\sl_power_manager.c</path>
+              <path>..\..\gecko_sdk\platform\service\power_manager\src\sl_power_manager_debug.c</path>
+              <path>..\..\gecko_sdk\platform\service\power_manager\src\sl_power_manager_hal_s2.c</path>
+              <path>..\..\gecko_sdk\platform\service\power_manager\src\sli_power_manager_private.h</path>
+            </group>
+            <group name="inc">
+              <path>..\..\gecko_sdk\platform\service\power_manager\inc\sl_power_manager.h</path>
+              <path>..\..\gecko_sdk\platform\service\power_manager\inc\sl_power_manager_debug.h</path>
+              <path>..\..\gecko_sdk\platform\service\power_manager\inc\sli_power_manager.h</path>
+            </group>
+          </group>
+          <group name="system">
+            <group name="src">
+              <path>..\..\gecko_sdk\platform\service\system\src\sl_system_init.c</path>
+              <path>..\..\gecko_sdk\platform\service\system\src\sl_system_process_action.c</path>
+            </group>
+            <group name="inc">
+              <path>..\..\gecko_sdk\platform\service\system\inc\sl_system_init.h</path>
+              <path>..\..\gecko_sdk\platform\service\system\inc\sl_system_process_action.h</path>
+            </group>
+          </group>
+          <group name="sleeptimer">
+            <group name="src">
+              <path>..\..\gecko_sdk\platform\service\sleeptimer\src\sl_sleeptimer.c</path>
+              <path>..\..\gecko_sdk\platform\service\sleeptimer\src\sl_sleeptimer_hal_rtcc.c</path>
+              <path>..\..\gecko_sdk\platform\service\sleeptimer\src\sl_sleeptimer_hal_prortc.c</path>
+              <path>..\..\gecko_sdk\platform\service\sleeptimer\src\sl_sleeptimer_hal_burtc.c</path>
+              <path>..\..\gecko_sdk\platform\service\sleeptimer\src\sl_sleeptimer_hal_timer.c</path>
+              <path>..\..\gecko_sdk\platform\service\sleeptimer\src\sli_sleeptimer_hal.h</path>
+            </group>
+            <group name="inc">
+              <path>..\..\gecko_sdk\platform\service\sleeptimer\inc\sl_sleeptimer.h</path>
+              <path>..\..\gecko_sdk\platform\service\sleeptimer\inc\sli_sleeptimer.h</path>
+            </group>
+          </group>
+          <group name="token_manager">
+            <group name="src">
+              <path>..\..\gecko_sdk\platform\service\token_manager\src\sl_token_def.c</path>
+              <path>..\..\gecko_sdk\platform\service\token_manager\src\sl_token_manager.c</path>
+              <path>..\..\gecko_sdk\platform\service\token_manager\src\sl_token_manufacturing.c</path>
+            </group>
+            <group name="inc">
+              <path>..\..\gecko_sdk\platform\service\token_manager\inc\sl_token_api.h</path>
+              <path>..\..\gecko_sdk\platform\service\token_manager\inc\sl_token_manager.h</path>
+              <path>..\..\gecko_sdk\platform\service\token_manager\inc\sl_token_manager_af_token_header.h</path>
+              <path>..\..\gecko_sdk\platform\service\token_manager\inc\sl_token_manufacturing.h</path>
+              <path>..\..\gecko_sdk\platform\service\token_manager\inc\sl_token_manufacturing_api.h</path>
+              <path>..\..\gecko_sdk\platform\service\token_manager\inc\sl_token_manufacturing_series_1.h</path>
+              <path>..\..\gecko_sdk\platform\service\token_manager\inc\sl_token_manufacturing_series_2.h</path>
+            </group>
+          </group>
+        </group>
+        <group name="emdrv">
+          <group name="dmadrv">
+            <group name="src">
+              <path>..\..\gecko_sdk\platform\emdrv\dmadrv\src\dmadrv.c</path>
+            </group>
+            <group name="inc">
+              <path>..\..\gecko_sdk\platform\emdrv\dmadrv\inc\dmadrv.h</path>
+            </group>
+          </group>
+          <group name="common">
+            <group name="inc">
+              <path>..\..\gecko_sdk\platform\emdrv\common\inc\ecode.h</path>
+            </group>
+          </group>
+          <group name="nvm3">
+            <group name="src">
+              <path>..\..\gecko_sdk\platform\emdrv\nvm3\src\nvm3_default_common_linker.c</path>
+              <path>..\..\gecko_sdk\platform\emdrv\nvm3\src\nvm3_hal_flash.c</path>
+              <path>..\..\gecko_sdk\platform\emdrv\nvm3\src\nvm3_lock.c</path>
+            </group>
+            <group name="inc">
+              <path>..\..\gecko_sdk\platform\emdrv\nvm3\inc\nvm3_default.h</path>
+              <path>..\..\gecko_sdk\platform\emdrv\nvm3\inc\nvm3.h</path>
+              <path>..\..\gecko_sdk\platform\emdrv\nvm3\inc\nvm3_hal.h</path>
+              <path>..\..\gecko_sdk\platform\emdrv\nvm3\inc\nvm3_hal_flash.h</path>
+              <path>..\..\gecko_sdk\platform\emdrv\nvm3\inc\nvm3_lock.h</path>
+            </group>
+            <group name="lib">
+              <path>..\..\gecko_sdk\platform\emdrv\nvm3\lib\libnvm3_CM33_iar.a</path>
+            </group>
+          </group>
+        </group>
+        <group name="emlib">
+          <group name="src">
+            <path>..\..\gecko_sdk\platform\emlib\src\em_burtc.c</path>
+            <path>..\..\gecko_sdk\platform\emlib\src\em_cmu.c</path>
+            <path>..\..\gecko_sdk\platform\emlib\src\em_core.c</path>
+            <path>..\..\gecko_sdk\platform\emlib\src\em_emu.c</path>
+            <path>..\..\gecko_sdk\platform\emlib\src\em_gpio.c</path>
+            <path>..\..\gecko_sdk\platform\emlib\src\em_ldma.c</path>
+            <path>..\..\gecko_sdk\platform\emlib\src\em_msc.c</path>
+            <path>..\..\gecko_sdk\platform\emlib\src\em_prs.c</path>
+            <path>..\..\gecko_sdk\platform\emlib\src\em_rmu.c</path>
+            <path>..\..\gecko_sdk\platform\emlib\src\em_rtcc.c</path>
+            <path>..\..\gecko_sdk\platform\emlib\src\em_se.c</path>
+            <path>..\..\gecko_sdk\platform\emlib\src\em_system.c</path>
+            <path>..\..\gecko_sdk\platform\emlib\src\em_timer.c</path>
+            <path>..\..\gecko_sdk\platform\emlib\src\em_usart.c</path>
+            <path>..\..\gecko_sdk\platform\emlib\src\em_wdog.c</path>
+          </group>
+          <group name="inc">
+            <path>..\..\gecko_sdk\platform\emlib\inc\em_burtc.h</path>
+            <path>..\..\gecko_sdk\platform\emlib\inc\em_chip.h</path>
+            <path>..\..\gecko_sdk\platform\emlib\inc\em_cmu.h</path>
+            <path>..\..\gecko_sdk\platform\emlib\inc\em_cmu_compat.h</path>
+            <path>..\..\gecko_sdk\platform\emlib\inc\sli_em_cmu.h</path>
+            <path>..\..\gecko_sdk\platform\emlib\inc\em_assert.h</path>
+            <path>..\..\gecko_sdk\platform\emlib\inc\em_bus.h</path>
+            <path>..\..\gecko_sdk\platform\emlib\inc\em_common.h</path>
+            <path>..\..\gecko_sdk\platform\emlib\inc\em_ramfunc.h</path>
+            <path>..\..\gecko_sdk\platform\emlib\inc\em_version.h</path>
+            <path>..\..\gecko_sdk\platform\emlib\inc\em_core.h</path>
+            <path>..\..\gecko_sdk\platform\emlib\inc\em_emu.h</path>
+            <path>..\..\gecko_sdk\platform\emlib\inc\em_gpio.h</path>
+            <path>..\..\gecko_sdk\platform\emlib\inc\em_ldma.h</path>
+            <path>..\..\gecko_sdk\platform\emlib\inc\em_msc.h</path>
+            <path>..\..\gecko_sdk\platform\emlib\inc\em_msc_compat.h</path>
+            <path>..\..\gecko_sdk\platform\emlib\inc\em_prs.h</path>
+            <path>..\..\gecko_sdk\platform\emlib\inc\em_rmu.h</path>
+            <path>..\..\gecko_sdk\platform\emlib\inc\em_rtcc.h</path>
+            <path>..\..\gecko_sdk\platform\emlib\inc\em_se.h</path>
+            <path>..\..\gecko_sdk\platform\emlib\inc\em_syscfg.h</path>
+            <path>..\..\gecko_sdk\platform\emlib\inc\em_system.h</path>
+            <path>..\..\gecko_sdk\platform\emlib\inc\em_timer.h</path>
+            <path>..\..\gecko_sdk\platform\emlib\inc\em_usart.h</path>
+            <path>..\..\gecko_sdk\platform\emlib\inc\em_wdog.h</path>
+          </group>
+        </group>
+        <group name="security">
+          <group name="sl_component">
+            <group name="sl_mbedtls_support">
+              <group name="config">
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_mbedtls_support\config\config-device-acceleration.h</path>
+              </group>
+              <group name="src">
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_mbedtls_support\src\sl_mbedtls.c</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_mbedtls_support\src\sli_psa_crypto.c</path>
+              </group>
+              <group name="inc">
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_mbedtls_support\inc\sl_mbedtls.h</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_mbedtls_support\inc\aes_alt.h</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_mbedtls_support\inc\ccm_alt.h</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_mbedtls_support\inc\cmac_alt.h</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_mbedtls_support\inc\se_management.h</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_mbedtls_support\inc\sha1_alt.h</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_mbedtls_support\inc\sha256_alt.h</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_mbedtls_support\inc\sha512_alt.h</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_mbedtls_support\inc\gcm_alt.h</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_mbedtls_support\inc\ecjpake_alt.h</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_mbedtls_support\inc\sli_psa_crypto.h</path>
+              </group>
+            </group>
+            <group name="sl_psa_driver">
+              <group name="src">
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_psa_driver\src\sli_psa_trng.c</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_psa_driver\src\sli_psa_driver_init.c</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_psa_driver\src\sli_psa_driver_common.c</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_psa_driver\src\sli_se_version_dependencies.c</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_psa_driver\src\sli_se_driver_builtin_keys.c</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_psa_driver\src\sli_se_driver_key_management.c</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_psa_driver\src\sli_se_driver_key_derivation.c</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_psa_driver\src\sli_se_driver_aead.c</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_psa_driver\src\sli_se_driver_mac.c</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_psa_driver\src\sli_se_driver_signature.c</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_psa_driver\src\sli_se_driver_cipher.c</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_psa_driver\src\sli_se_transparent_driver_cipher.c</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_psa_driver\src\sli_se_transparent_driver_hash.c</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_psa_driver\src\sli_se_transparent_driver_aead.c</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_psa_driver\src\sli_se_transparent_driver_mac.c</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_psa_driver\src\sli_se_transparent_key_derivation.c</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_psa_driver\src\sli_se_opaque_driver_mac.c</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_psa_driver\src\sli_se_opaque_key_derivation.c</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_psa_driver\src\sli_se_opaque_driver_cipher.c</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_psa_driver\src\sli_se_opaque_driver_aead.c</path>
+              </group>
+              <group name="inc">
+                <group name="public">
+                  <path>..\..\gecko_sdk\platform\security\sl_component\sl_psa_driver\inc\public\sl_psa_values.h</path>
+                </group>
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_psa_driver\inc\sli_psa_driver_common.h</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_psa_driver\inc\sli_se_version_dependencies.h</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_psa_driver\inc\sli_se_driver_aead.h</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_psa_driver\inc\sli_se_driver_cipher.h</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_psa_driver\inc\sli_se_driver_key_derivation.h</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_psa_driver\inc\sli_se_driver_key_management.h</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_psa_driver\inc\sli_se_driver_mac.h</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_psa_driver\inc\sli_se_opaque_functions.h</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_psa_driver\inc\sli_se_opaque_types.h</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_psa_driver\inc\sli_se_transparent_functions.h</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\sl_psa_driver\inc\sli_se_transparent_types.h</path>
+              </group>
+            </group>
+            <group name="se_manager">
+              <group name="src">
+                <path>..\..\gecko_sdk\platform\security\sl_component\se_manager\src\sl_se_manager.c</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\se_manager\src\sl_se_manager_util.c</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\se_manager\src\sl_se_manager_cipher.c</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\se_manager\src\sl_se_manager_entropy.c</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\se_manager\src\sl_se_manager_hash.c</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\se_manager\src\sl_se_manager_key_derivation.c</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\se_manager\src\sl_se_manager_key_handling.c</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\se_manager\src\sl_se_manager_signature.c</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\se_manager\src\sl_se_manager_attestation.c</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\se_manager\src\sli_se_manager_osal.h</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\se_manager\src\sli_se_manager_osal_baremetal.h</path>
+              </group>
+              <group name="inc">
+                <path>..\..\gecko_sdk\platform\security\sl_component\se_manager\inc\sl_se_manager.h</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\se_manager\inc\sl_se_manager_defines.h</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\se_manager\inc\sl_se_manager_types.h</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\se_manager\inc\sl_se_manager_util.h</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\se_manager\inc\sl_se_manager_internal_keys.h</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\se_manager\inc\sli_se_manager_internal.h</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\se_manager\inc\sl_se_manager_check_config.h</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\se_manager\inc\sl_se_manager_config.h</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\se_manager\inc\sl_se_manager_cipher.h</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\se_manager\inc\sl_se_manager_entropy.h</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\se_manager\inc\sl_se_manager_hash.h</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\se_manager\inc\sl_se_manager_key_derivation.h</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\se_manager\inc\sl_se_manager_key_handling.h</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\se_manager\inc\sl_se_manager_signature.h</path>
+                <path>..\..\gecko_sdk\platform\security\sl_component\se_manager\inc\sl_se_manager_attestation.h</path>
+              </group>
+            </group>
+          </group>
+        </group>
+        <group name="radio">
+          <group name="rail_lib">
+            <group name="common">
+              <path>..\..\gecko_sdk\platform\radio\rail_lib\common\rail.h</path>
+              <path>..\..\gecko_sdk\platform\radio\rail_lib\common\rail_mfm.h</path>
+              <path>..\..\gecko_sdk\platform\radio\rail_lib\common\rail_assert_error_codes.h</path>
+              <path>..\..\gecko_sdk\platform\radio\rail_lib\common\rail_types.h</path>
+              <path>..\..\gecko_sdk\platform\radio\rail_lib\common\rail_features.h</path>
+            </group>
+            <group name="protocol">
+              <group name="ble">
+                <path>..\..\gecko_sdk\platform\radio\rail_lib\protocol\ble\rail_ble.h</path>
+              </group>
+              <group name="ieee802154">
+                <path>..\..\gecko_sdk\platform\radio\rail_lib\protocol\ieee802154\rail_ieee802154.h</path>
+              </group>
+              <group name="zwave">
+                <path>..\..\gecko_sdk\platform\radio\rail_lib\protocol\zwave\rail_zwave.h</path>
+              </group>
+            </group>
+            <group name="chip">
+              <group name="efr32">
+                <group name="efr32xg2x">
+                  <path>..\..\gecko_sdk\platform\radio\rail_lib\chip\efr32\efr32xg2x\rail_chip_specific.h</path>
+                </group>
+              </group>
+            </group>
+            <group name="plugin">
+              <group name="rail_util_ieee802154">
+                <path>..\..\gecko_sdk\platform\radio\rail_lib\plugin\rail_util_ieee802154\sl_rail_util_ieee802154_stack_event.h</path>
+                <path>..\..\gecko_sdk\platform\radio\rail_lib\plugin\rail_util_ieee802154\sl_rail_util_ieee802154_phy_select.h</path>
+              </group>
+              <group name="pa-conversions">
+                <group name="efr32xg21">
+                  <path>..\..\gecko_sdk\platform\radio\rail_lib\plugin\pa-conversions\efr32xg21\sl_rail_util_pa_curves.h</path>
+                </group>
+                <path>..\..\gecko_sdk\platform\radio\rail_lib\plugin\pa-conversions\pa_conversions_efr32.c</path>
+                <path>..\..\gecko_sdk\platform\radio\rail_lib\plugin\pa-conversions\pa_curves_efr32.c</path>
+                <path>..\..\gecko_sdk\platform\radio\rail_lib\plugin\pa-conversions\pa_conversions_efr32.h</path>
+                <path>..\..\gecko_sdk\platform\radio\rail_lib\plugin\pa-conversions\pa_curve_types_efr32.h</path>
+                <path>..\..\gecko_sdk\platform\radio\rail_lib\plugin\pa-conversions\pa_curves_efr32.h</path>
+              </group>
+              <group name="rail_util_pti">
+                <path>..\..\gecko_sdk\platform\radio\rail_lib\plugin\rail_util_pti\sl_rail_util_pti.c</path>
+                <path>..\..\gecko_sdk\platform\radio\rail_lib\plugin\rail_util_pti\sl_rail_util_pti.h</path>
+              </group>
+              <group name="rail_util_rf_path">
+                <path>..\..\gecko_sdk\platform\radio\rail_lib\plugin\rail_util_rf_path\sl_rail_util_rf_path.c</path>
+                <path>..\..\gecko_sdk\platform\radio\rail_lib\plugin\rail_util_rf_path\sl_rail_util_rf_path.h</path>
+              </group>
+              <group name="rail_util_ant_div">
+                <path>..\..\gecko_sdk\platform\radio\rail_lib\plugin\rail_util_ant_div\sl_rail_util_ant_div.c</path>
+                <path>..\..\gecko_sdk\platform\radio\rail_lib\plugin\rail_util_ant_div\sl_rail_util_ant_div.h</path>
+              </group>
+              <group name="coexistence">
+                <group name="protocol">
+                  <group name="ieee802154_uc">
+                    <path>..\..\gecko_sdk\platform\radio\rail_lib\plugin\coexistence\protocol\ieee802154_uc\coexistence-802154.c</path>
+                    <path>..\..\gecko_sdk\platform\radio\rail_lib\plugin\coexistence\protocol\ieee802154_uc\coexistence-802154.h</path>
+                  </group>
+                </group>
+                <group name="common">
+                  <path>..\..\gecko_sdk\platform\radio\rail_lib\plugin\coexistence\common\coexistence.h</path>
+                </group>
+              </group>
+            </group>
+            <group name="autogen">
+              <group name="librail_release">
+                <path>..\..\gecko_sdk\platform\radio\rail_lib\autogen\librail_release\librail_efr32xg21_iar_release.a</path>
+              </group>
+            </group>
+          </group>
+          <group name="mac">
+            <group name="rail_mux">
+              <path>..\..\gecko_sdk\platform\radio\mac\rail_mux\sl_rail_mux_rename.h</path>
+              <path>..\..\gecko_sdk\platform\radio\mac\rail_mux\sl_rail_mux.h</path>
+            </group>
+            <path>..\..\gecko_sdk\platform\radio\mac\indirect-queue.h</path>
+            <path>..\..\gecko_sdk\platform\radio\mac\lower-mac.h</path>
+            <path>..\..\gecko_sdk\platform\radio\mac\lower-mac-debug.h</path>
+            <path>..\..\gecko_sdk\platform\radio\mac\mac-child.h</path>
+            <path>..\..\gecko_sdk\platform\radio\mac\mac-command.h</path>
+            <path>..\..\gecko_sdk\platform\radio\mac\mac-flat-header.h</path>
+            <path>..\..\gecko_sdk\platform\radio\mac\mac-header.h</path>
+            <path>..\..\gecko_sdk\platform\radio\mac\mac-packet-header.h</path>
+            <path>..\..\gecko_sdk\platform\radio\mac\mac-phy.h</path>
+            <path>..\..\gecko_sdk\platform\radio\mac\mac-types.h</path>
+            <path>..\..\gecko_sdk\platform\radio\mac\multi-mac.h</path>
+            <path>..\..\gecko_sdk\platform\radio\mac\mac-multi-network.h</path>
+            <path>..\..\gecko_sdk\platform\radio\mac\scan.h</path>
+            <path>..\..\gecko_sdk\platform\radio\mac\upper-mac.h</path>
+          </group>
+        </group>
+      </group>
+      <group name="util">
+        <group name="third_party">
+          <group name="mbedtls">
+            <group name="library">
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\constant_time.c</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\threading.c</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\platform.c</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\platform_util.c</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\bn_mul.h</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\bignum_internal.h</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\cipher_wrap.h</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\common.h</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\constant_time_internal.h</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\constant_time_invasive.h</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\ecp_internal_alt.h</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\ecp_invasive.h</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\entropy_poll.h</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\md_wrap.h</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\mps_common.h</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\mps_error.h</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\mps_reader.h</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\mps_trace.h</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\padlock.h</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\pk_wrap.h</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\pkwrite.h</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\rsa_alt_helpers.h</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\ssl_debug_helpers.h</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\ssl_client.h</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\ssl_misc.h</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\ssl_tls13_invasive.h</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\ssl_tls13_keys.h</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\psa_crypto_client.c</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\cipher.c</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\cipher_wrap.c</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\psa_crypto.c</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\psa_crypto_aead.c</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\psa_crypto_cipher.c</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\psa_crypto_driver_wrappers.c</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\psa_crypto_slot_management.c</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\psa_crypto_storage.c</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\psa_crypto_ecp.c</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\psa_crypto_hash.c</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\psa_crypto_mac.c</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\psa_crypto_rsa.c</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\psa_crypto_se.c</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\psa_its_file.c</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\check_crypto_config.h</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\psa_crypto_aead.h</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\psa_crypto_cipher.h</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\psa_crypto_core.h</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\psa_crypto_driver_wrappers.h</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\psa_crypto_ecp.h</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\psa_crypto_hash.h</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\psa_crypto_invasive.h</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\psa_crypto_its.h</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\psa_crypto_mac.h</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\psa_crypto_random_impl.h</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\psa_crypto_rsa.h</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\psa_crypto_se.h</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\psa_crypto_slot_management.h</path>
+              <path>..\..\gecko_sdk\util\third_party\mbedtls\library\psa_crypto_storage.h</path>
+            </group>
+            <group name="include">
+              <group name="mbedtls">
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\aes.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\aria.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\asn1.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\asn1write.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\base64.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\bignum.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\build_info.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\camellia.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\ccm.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\chacha20.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\chachapoly.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\check_config.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\cipher.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\cmac.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\compat-2.x.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\config_psa.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\constant_time.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\ctr_drbg.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\debug.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\des.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\dhm.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\ecdh.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\ecdsa.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\ecjpake.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\ecp.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\entropy.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\error.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\gcm.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\hkdf.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\hmac_drbg.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\mbedtls_config.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\md.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\md5.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\memory_buffer_alloc.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\net_sockets.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\nist_kw.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\oid.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\pem.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\pk.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\pkcs12.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\pkcs5.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\platform.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\platform_time.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\platform_util.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\poly1305.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\private_access.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\psa_util.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\ripemd160.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\rsa.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\sha1.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\sha256.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\sha512.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\ssl.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\ssl_cache.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\ssl_ciphersuites.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\ssl_cookie.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\ssl_ticket.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\threading.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\timing.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\version.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\x509.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\x509_crl.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\x509_crt.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\mbedtls\x509_csr.h</path>
+              </group>
+              <group name="psa">
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\psa\crypto.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\psa\crypto_builtin_composites.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\psa\crypto_builtin_primitives.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\psa\crypto_compat.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\psa\crypto_config.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\psa\crypto_driver_common.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\psa\crypto_driver_contexts_composites.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\psa\crypto_driver_contexts_primitives.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\psa\crypto_extra.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\psa\crypto_platform.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\psa\crypto_se_driver.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\psa\crypto_sizes.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\psa\crypto_struct.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\psa\crypto_types.h</path>
+                <path>..\..\gecko_sdk\util\third_party\mbedtls\include\psa\crypto_values.h</path>
+              </group>
+            </group>
+          </group>
+          <group name="printf">
+            <group name="src">
+              <path>..\..\gecko_sdk\util\third_party\printf\src\iostream_printf.c</path>
+            </group>
+            <group name="inc">
+              <path>..\..\gecko_sdk\util\third_party\printf\inc\iostream_printf.h</path>
+            </group>
+            <path>..\..\gecko_sdk\util\third_party\printf\printf.c</path>
+            <path>..\..\gecko_sdk\util\third_party\printf\printf.h</path>
+          </group>
+          <group name="segger">
+            <group name="systemview">
+              <group name="SEGGER">
+                <path>..\..\gecko_sdk\util\third_party\segger\systemview\SEGGER\SEGGER_RTT.c</path>
+                <path>..\..\gecko_sdk\util\third_party\segger\systemview\SEGGER\SEGGER.h</path>
+                <path>..\..\gecko_sdk\util\third_party\segger\systemview\SEGGER\SEGGER_RTT.h</path>
+              </group>
+            </group>
+          </group>
+        </group>
+        <group name="silicon_labs">
+          <group name="silabs_core">
+            <group name="memory_manager">
+              <path>..\..\gecko_sdk\util\silicon_labs\silabs_core\memory_manager\sl_malloc.c</path>
+              <path>..\..\gecko_sdk\util\silicon_labs\silabs_core\memory_manager\sl_malloc.h</path>
+            </group>
+            <group name="buffer_manager">
+              <path>..\..\gecko_sdk\util\silicon_labs\silabs_core\buffer_manager\legacy-packet-buffer.h</path>
+              <path>..\..\gecko_sdk\util\silicon_labs\silabs_core\buffer_manager\buffer-queue.h</path>
+              <path>..\..\gecko_sdk\util\silicon_labs\silabs_core\buffer_manager\buffer-management.h</path>
+            </group>
+            <group name="event_queue">
+              <path>..\..\gecko_sdk\util\silicon_labs\silabs_core\event_queue\event-queue.h</path>
+            </group>
+          </group>
+        </group>
+      </group>
+      <group name="protocol">
+        <group name="zigbee">
+          <group name="app">
+            <group name="framework">
+              <group name="common">
+                <path>..\..\gecko_sdk\protocol\zigbee\app\framework\common\zigbee_app_framework_common.c</path>
+                <path>..\..\gecko_sdk\protocol\zigbee\app\framework\common\zigbee_app_framework_stack_cb.c</path>
+                <path>..\..\gecko_sdk\protocol\zigbee\app\framework\common\zigbee_app_framework_sleep.c</path>
+                <path>..\..\gecko_sdk\protocol\zigbee\app\framework\common\zigbee_app_framework_common.h</path>
+                <path>..\..\gecko_sdk\protocol\zigbee\app\framework\common\zigbee_app_framework_event.h</path>
+                <path>..\..\gecko_sdk\protocol\zigbee\app\framework\common\zigbee_app_framework_callback.h</path>
+                <path>..\..\gecko_sdk\protocol\zigbee\app\framework\common\zigbee_ncp_framework_cb.c</path>
+              </group>
+              <group name="plugin">
+                <group name="debug-print">
+                  <path>..\..\gecko_sdk\protocol\zigbee\app\framework\plugin\debug-print\sl_zigbee_debug_print.c</path>
+                  <path>..\..\gecko_sdk\protocol\zigbee\app\framework\plugin\debug-print\sl_zigbee_debug_print.h</path>
+                </group>
+              </group>
+              <group name="util">
+                <path>..\..\gecko_sdk\protocol\zigbee\app\framework\util\af-ncp-token.h</path>
+              </group>
+            </group>
+            <group name="util">
+              <group name="security">
+                <path>..\..\gecko_sdk\protocol\zigbee\app\util\security\security-address-cache.c</path>
+                <path>..\..\gecko_sdk\protocol\zigbee\app\util\security\security.h</path>
+              </group>
+              <group name="ezsp">
+                <path>..\..\gecko_sdk\protocol\zigbee\app\util\ezsp\secure-ezsp-stub.c</path>
+                <path>..\..\gecko_sdk\protocol\zigbee\app\util\ezsp\ezsp-protocol.h</path>
+                <path>..\..\gecko_sdk\protocol\zigbee\app\util\ezsp\secure-ezsp-protocol.h</path>
+                <path>..\..\gecko_sdk\protocol\zigbee\app\util\ezsp\secure-ezsp-types.h</path>
+                <path>..\..\gecko_sdk\protocol\zigbee\app\util\ezsp\ezsp-enum.h</path>
+                <path>..\..\gecko_sdk\protocol\zigbee\app\util\ezsp\ezsp-frame-utilities.h</path>
+              </group>
+            </group>
+            <group name="em260">
+              <path>..\..\gecko_sdk\protocol\zigbee\app\em260\command-handlers-binding-generated.c</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\app\em260\command-handlers-binding.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\app\em260\command-handlers-green-power-generated.c</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\app\em260\em260-common.c</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\app\em260\serial-interface-uart.c</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\app\em260\ncp-stack-stub.c</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\app\em260\command-handlers-secure-ezsp-stub.c</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\app\em260\command-context.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\app\em260\serial-interface.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\app\em260\em260-callbacks.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\app\em260\command-handlers-cbke.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\app\em260\command-handlers-mfglib.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\app\em260\command-handlers-messaging-generated.c</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\app\em260\command-handlers-networking-generated.c</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\app\em260\command-handlers-security-generated.c</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\app\em260\command-handlers-trust-center-generated.c</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\app\em260\command-handlers-zll.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\app\em260\command-handlers-security.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\app\em260\command-handlers-zigbee-pro.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\app\em260\command-handlers-zll-generated.c</path>
+            </group>
+            <group name="xncp">
+              <path>..\..\gecko_sdk\protocol\zigbee\app\xncp\xncp-stubs.c</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\app\xncp\xncp.h</path>
+            </group>
+          </group>
+          <group name="stack">
+            <group name="include">
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\include\binding-table.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\include\gp-types.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\include\security.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\include\zigbee-security-manager.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\include\aes-mmo.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\include\source-route.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\include\ember-types.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\include\zll-types.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\include\ember-types-internal.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\include\ember.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\include\ember-debug.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\include\error-def.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\include\error.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\include\child.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\include\ember-alternate-mac.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\include\ember-duty-cycle.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\include\ember-static-struct.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\include\message.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\include\multi-network.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\include\multi-phy.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\include\network-formation.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\include\stack-info.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\include\trust-center.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\include\zigbee-device-stack.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\include\raw-message.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\include\byte-utilities.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\include\ember-random-api.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\include\library.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\include\mac-layer.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\include\bootload.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\include\cbke-crypto-engine.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\include\zigbee-event-logger-gen.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\include\mfglib.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\include\zll-api.h</path>
+            </group>
+            <group name="security">
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\security\zigbee-security-manager-no-vault.c</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\security\zigbee-security-manager.c</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\security\zigbee-security-manager-internal.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\security\zigbee-security-manager-vault-support.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\security\cbke-crypto-engine-stub.c</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\security\cbke-crypto-engine-163k1-stub.c</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\security\cbke-crypto-engine-283k1-stub.c</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\security\cbke-crypto-engine-dsa-verify-stub.c</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\security\cbke-crypto-engine-dsa-sign-stub.c</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\security\cbke-crypto-engine-dsa-verify-283k1-stub.c</path>
+            </group>
+            <group name="framework">
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\framework\aes-ecb.c</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\framework\zigbee_debug_channel.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\framework\zigbee-debug-extended.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\framework\zigbee-event-logger-stub-gen.c</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\framework\strong-random-api.c</path>
+            </group>
+            <group name="platform">
+              <group name="micro">
+                <path>..\..\gecko_sdk\protocol\zigbee\stack\platform\micro\aes.h</path>
+              </group>
+            </group>
+            <group name="gp">
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\gp\gp-token-config.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\gp\gp-proxy-table.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\gp\gp-sink-table.h</path>
+            </group>
+            <group name="zigbee">
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\zigbee\aps-keys-full.c</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\zigbee\aps-keys-full.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\zigbee\source-route-table-update.h</path>
+            </group>
+            <group name="config">
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\config\ember-configuration.c</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\config\config.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\config\token-stack.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\config\token-phy.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\config\ember-configuration-defaults.h</path>
+            </group>
+            <group name="core">
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\core\ember-multi-network-stub.c</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\core\multi-pan-stub.c</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\core\multi-pan-common.c</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\core\ember-multi-network.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\core\multi-pan-token-config.h</path>
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\core\multi-pan.h</path>
+            </group>
+            <group name="zll">
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\zll\zll-token-config.h</path>
+            </group>
+            <group name="mac">
+              <path>..\..\gecko_sdk\protocol\zigbee\stack\mac\multi-mac.h</path>
+            </group>
+          </group>
+          <group name="build">
+            <group name="binding-table-library-cortexm3-iar-efr32mg21-rail-ember_multi_network_stripped">
+              <path>..\..\gecko_sdk\protocol\zigbee\build\binding-table-library-cortexm3-iar-efr32mg21-rail-ember_multi_network_stripped\binding-table-library.a</path>
+            </group>
+            <group name="ncp-binding-library-cortexm3-iar-efr32mg21-rail-ember_multi_network_stripped">
+              <path>..\..\gecko_sdk\protocol\zigbee\build\ncp-binding-library-cortexm3-iar-efr32mg21-rail-ember_multi_network_stripped\ncp-binding-library.a</path>
+            </group>
+            <group name="debug-basic-library-cortexm3-iar-efr32mg21-rail">
+              <path>..\..\gecko_sdk\protocol\zigbee\build\debug-basic-library-cortexm3-iar-efr32mg21-rail\debug-basic-library.a</path>
+            </group>
+            <group name="debug-extended-library-cortexm3-iar-efr32mg21-rail">
+              <path>..\..\gecko_sdk\protocol\zigbee\build\debug-extended-library-cortexm3-iar-efr32mg21-rail\debug-extended-library.a</path>
+            </group>
+            <group name="end-device-bind-library-cortexm3-iar-efr32mg21-rail-ember_multi_network_stripped">
+              <path>..\..\gecko_sdk\protocol\zigbee\build\end-device-bind-library-cortexm3-iar-efr32mg21-rail-ember_multi_network_stripped\end-device-bind-library.a</path>
+            </group>
+            <group name="gp-library-cortexm3-iar-efr32mg21-rail-ember_multi_network_stripped">
+              <path>..\..\gecko_sdk\protocol\zigbee\build\gp-library-cortexm3-iar-efr32mg21-rail-ember_multi_network_stripped\gp-library.a</path>
+            </group>
+            <group name="ncp-gp-library-cortexm3-iar-efr32mg21-rail">
+              <path>..\..\gecko_sdk\protocol\zigbee\build\ncp-gp-library-cortexm3-iar-efr32mg21-rail\ncp-gp-library.a</path>
+            </group>
+            <group name="install-code-library-cortexm3-iar-efr32mg21-rail-ember_multi_network_stripped">
+              <path>..\..\gecko_sdk\protocol\zigbee\build\install-code-library-cortexm3-iar-efr32mg21-rail-ember_multi_network_stripped\install-code-library.a</path>
+            </group>
+            <group name="em260-uart-util-library-cortexm3-iar-efr32mg21-rail-ember_multi_network_stripped">
+              <path>..\..\gecko_sdk\protocol\zigbee\build\em260-uart-util-library-cortexm3-iar-efr32mg21-rail-ember_multi_network_stripped\em260-uart-util-library.a</path>
+            </group>
+            <group name="packet-validate-library-cortexm3-iar-efr32mg21-rail">
+              <path>..\..\gecko_sdk\protocol\zigbee\build\packet-validate-library-cortexm3-iar-efr32mg21-rail\packet-validate-library.a</path>
+            </group>
+            <group name="zigbee-pro-stack-cortexm3-iar-efr32mg21-rail-ember_multi_network_stripped">
+              <path>..\..\gecko_sdk\protocol\zigbee\build\zigbee-pro-stack-cortexm3-iar-efr32mg21-rail-ember_multi_network_stripped\zigbee-pro-stack.a</path>
+            </group>
+            <group name="ncp-pro-library-cortexm3-iar-efr32mg21-rail-ember_multi_network_stripped">
+              <path>..\..\gecko_sdk\protocol\zigbee\build\ncp-pro-library-cortexm3-iar-efr32mg21-rail-ember_multi_network_stripped\ncp-pro-library.a</path>
+            </group>
+            <group name="zigbee-r22-support-library-cortexm3-iar-efr32mg21-rail-ember_multi_network_stripped">
+              <path>..\..\gecko_sdk\protocol\zigbee\build\zigbee-r22-support-library-cortexm3-iar-efr32mg21-rail-ember_multi_network_stripped\zigbee-r22-support-library.a</path>
+            </group>
+            <group name="source-route-library-cortexm3-iar-efr32mg21-rail-ember_multi_network_stripped">
+              <path>..\..\gecko_sdk\protocol\zigbee\build\source-route-library-cortexm3-iar-efr32mg21-rail-ember_multi_network_stripped\source-route-library.a</path>
+            </group>
+            <group name="ncp-source-route-library-cortexm3-iar-efr32mg21-rail">
+              <path>..\..\gecko_sdk\protocol\zigbee\build\ncp-source-route-library-cortexm3-iar-efr32mg21-rail\ncp-source-route-library.a</path>
+            </group>
+            <group name="zll-library-cortexm3-iar-efr32mg21-rail-ember_multi_network_stripped">
+              <path>..\..\gecko_sdk\protocol\zigbee\build\zll-library-cortexm3-iar-efr32mg21-rail-ember_multi_network_stripped\zll-library.a</path>
+            </group>
+            <group name="ncp-zll-library-cortexm3-iar-efr32mg21-rail">
+              <path>..\..\gecko_sdk\protocol\zigbee\build\ncp-zll-library-cortexm3-iar-efr32mg21-rail\ncp-zll-library.a</path>
+            </group>
+          </group>
+        </group>
+      </group>
+    </group>
+    <path>main.c</path>
+    <path>app.c</path>
+    <path>readme.html</path>
+  </files>
+  <SimplicityStudioMetadata>
+    <metadata>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</metadata>
+  </SimplicityStudioMetadata>
+</iarProjectConnection>
